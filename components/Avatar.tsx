@@ -25,14 +25,14 @@ type AvatarImageProps = ComponentProps &
     large?: boolean
     extraLarge?: boolean
     href?: string
-    alt?: boolean
+    _alt?: boolean
   }
 function AvatarImage({
   large = false,
   extraLarge = false,
   className,
   href,
-  alt,
+  _alt,
   ...props
 }: AvatarImageProps) {
   // 根据尺寸设置不同的大小

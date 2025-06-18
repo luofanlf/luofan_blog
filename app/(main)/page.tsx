@@ -37,7 +37,7 @@ export default async function BlogHomePage() {
               </h2>
               <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
                 Welcome to my personal blog! Here I record my study notes, technical sharing and life insights.
-                If you're interested in my articles, feel free to contact me via email.
+                If you&apos;re interested in my articles, feel free to contact me via email.
               </p>
             </div>
           </aside>

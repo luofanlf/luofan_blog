@@ -116,9 +116,6 @@ export default defineType({
       type: 'code',
       name: 'codeBlock',
       title: '代码块',
-      options: {
-        withFilename: true,
-      },
     }),
   ],
 })

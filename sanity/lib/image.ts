@@ -9,3 +9,6 @@ const builder = createImageUrlBuilder({ projectId, dataset })
 export const urlFor = (source: SanityImageSource) => {
   return builder.image(source)
 }
+
+// 添加 urlForImage 导出以保持向后兼容
+export const urlForImage = urlFor

@@ -38,7 +38,7 @@ export function Headline() {
             }}
           >
             <Balancer>
-              I'm LuoFan, currently studying in Singapore, passionate about programming and technology innovation.<br />
+              I&apos;m LuoFan, currently studying in Singapore, passionate about programming and technology innovation.<br />
               I like to explore new technologies, build interesting projects, and share my learning experiences and technical insights through blogs.<br />
               Here I record my growth trajectory, hoping to communicate and learn with more like-minded friends.
             </Balancer>
