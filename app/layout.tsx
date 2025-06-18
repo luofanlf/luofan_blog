@@ -14,11 +14,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | Cali Castle',
+    template: '%s | LuoFan',
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Cali,Cali Castle,郭晓楠,佐玩,创始人,CEO,开发者,设计师,细节控,创新',
+  keywords: 'LuoFan,Developer,Student,Singapore,Programming,Technology,Blog,Tech Enthusiast',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -34,17 +34,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | Cali Castle',
+      template: '%s | LuoFan',
     },
     description: seo.description,
-    siteName: 'Cali Castle',
-    locale: 'zh_CN',
+    siteName: 'LuoFan Blog',
+    locale: 'en_US',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://luofan.blog',
   },
   twitter: {
-    site: '@thecalicastle',
-    creator: '@thecalicastle',
+    site: '@luofan',
+    creator: '@luofan',
     card: 'summary_large_image',
     title: seo.title,
     description: seo.description,
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: url('/'),
     types: {
-      'application/rss+xml': [{ url: 'rss', title: 'RSS 订阅' }],
+      'application/rss+xml': [{ url: 'rss', title: 'RSS Feed' }],
     },
   },
 }
@@ -72,7 +72,7 @@ export default function RootLayout({
   return (
     <ClerkProvider localization={zhCN}>
       <html
-        lang="zh-CN"
+        lang="en"
         className={`${sansFont.variable} m-0 h-full p-0 font-sans antialiased`}
         suppressHydrationWarning
       >
